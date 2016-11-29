@@ -23,16 +23,8 @@ header{
 header img{
     margin: 8% 0 0 0;
 }
-.pull-right {
-  float: right !important;
-}
-header li {
-    padding: 3%;
-    margin:1% 0;
-}
 header li a{
     color: #fff;
-    text-decoration: none;
 }
 /*-------------------------SECTION-HERO------------------------------------*/
 .etkt{
@@ -217,9 +209,12 @@ footer{
     .but button{margin: 0 30%;}
     .icon-cn{margin-left: 4%;}
     .pasos1{margin-left: 3.5%;}
-    .navbar-header button{;background-color: #74a3db;}
+    .navbar-header button{;background-color: #74a3db; margin: 8% 5%;}
+    header .nav{text-align: center; font-family: "Open Sans"}
     .banner2{text-align: center;}
-    .butt2{margin: 0 31%;}
+    .butt2{margin: 6% 31%;}
+@media screen and (max-width:450px){
+    .icon-cn{display: none;}
    /*------------CONTACT------------------*/ 
     .formulario{margin: 0;width: 60%;}
     .text{margin: 0;padding: 0;}
