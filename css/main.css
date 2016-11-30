@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    outline: 1px solid rgba(255,0,0,0.3)
 }
 .sep{
    text-align: center;
@@ -188,17 +187,17 @@ footer{
 .contact{
     background: url(../image/large.jpg);
     background-size: cover;
-    height: 800px;
+    height: 500px;
+    display: table;
+    width: 100%;
+    padding: 5% 25%;
 }
 .formulario{
     background-color: #fff;
-    width: 50%;
-    padding: 0 4%;
-    position: absolute;
-    top: 30%;
-    left: 25%;
+    padding: 0% 4%;
     border-top: 5px solid #74a3db;
     border-radius: 10px;
+    display: table-cell;
 }
 .formulario h3{
     border-bottom: 2px solid #ccc;
@@ -216,6 +215,10 @@ footer{
 .text p {
     margin: 0;
 }
+.foot2{
+    padding: 0;
+}
+
 /*-------------------------MEDIA-QUERIES---------------------------------------*/
 @media screen and (max-width:1000px){
     .free{text-align: center;}
