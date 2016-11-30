@@ -41,6 +41,9 @@ header li a{
 .text h1{
     color: #fff;
 }
+.navbar button span{
+    background-color: #fff;
+}
        /*--------------------CELESTE----------------*/
 .header-banner{
     background: rgba(78,127,184,0.9);
