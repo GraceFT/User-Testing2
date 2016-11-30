@@ -6,14 +6,14 @@
 }
 .sep{
    text-align: center;
-    border-top: 1px solid #ccc;
+    margin: -5% 0 0 0;
 }
 .sep img{
-    margin: -5%;
+    margin-top: -10% 0;
 }
 .sep2 img{
-position: absolute;
-left: -10%;
+    display: inline;
+    margin: 0% -18%;
 }
 /*-------------------------HEADER----------------------------------------*/
 
@@ -63,6 +63,7 @@ header li a{
 .section-2{
     padding: 8% 0;
     text-align: center;
+    border-bottom: 1px solid #ccc;
 } 
 .section-2 h2{
     color: #77afff;
@@ -92,8 +93,12 @@ header li a{
 }
 /*-------------------------SECTION-4----------------------------------------*/
 .section-4{
-    padding: 8% 0 5%;
-    border-bottom: rgba(0,0,0,0.5)
+    padding: 0%;
+    border-bottom: rgba(0,0,0,0.5);
+    border-bottom: 1px solid #ccc;
+}
+.ejem1{
+    padding: 6% 0;
 }
 .section-4 h2{
     color: #77afff;
@@ -225,14 +230,17 @@ footer{
 /*-------------------------MEDIA-QUERIES---------------------------------------*/
 @media screen and (max-width:1000px){
     .free{text-align: center;}
-    .but button{margin: 0 30%;}
+    .but button{margin: 0 38%;}
     .icon-cn{margin-left: 4%;}
     .pasos1{margin-left: 3.5%;}
     .navbar-header button{;background-color: #74a3db; margin: 8% 5%;}
     header .nav{text-align: center; font-family: "Open Sans"}
     .banner2{text-align: center;}
-    .butt2{margin: 6% 31%;}
+    .butt2{margin: 3% 31%;}
     .contact{padding: 3% 15%;}
+@media screen and (max-width:990px){    
+.sep2 img{margin: 0 39%;}
+}
 @media screen and (max-width:600px){
     .contact{padding: 5%;}
     .text{margin: 0;padding: 0;}
@@ -242,4 +250,8 @@ footer{
    /*------------CONTACT------------------*/ 
     .contact{padding: 5%;}
     .text{margin: 0;padding: 0;}
+    .sep2 img{margin: 0 30%;}
+    .sep{margin: -5% 0;}
+    .but button{margin: 0 25%;}
+    .butt2{margin: 6% 23%;}
 }
