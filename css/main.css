@@ -182,7 +182,7 @@ footer{
 }
 /*-------------------------CONTACT----------------------------------------*/
 .head2{
-    background: #74a3db
+    background: #74a3db;
 }
 .contact{
     background: url(../image/large.jpg);
@@ -229,10 +229,14 @@ footer{
     header .nav{text-align: center; font-family: "Open Sans"}
     .banner2{text-align: center;}
     .butt2{margin: 6% 31%;}
+    .contact{padding: 3% 15%;}
+@media screen and (max-width:600px){
+    .contact{padding: 5%;}
+    .text{margin: 0;padding: 0;}
+    }
 @media screen and (max-width:450px){
     .icon-cn{display: none;}
    /*------------CONTACT------------------*/ 
-    .formulario{margin: 0;width: 60%;}
+    .contact{padding: 5%;}
     .text{margin: 0;padding: 0;}
-    .form-test{margin: 0;padding: 0; width:80%;}
 }
