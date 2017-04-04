@@ -14,89 +14,96 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<body>
+<body class="body2">
 <!-------------------------HEADER---------------------------------------->
 <header class="head2">
-    <div class="container">
-        <div class="row">
-            <nav class="navbar" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                          <span class="sr-only">Menú</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                    </button>
-                    <a class="img-logo" href="index.html"><img src="image/user-r.png" alt="header-logo" class="img-responsive logo"></a>
-                </div>
-                <div class="collapse navbar-collapse navbar-1 navbar-right" aria-expanded="false">
-                    <ul class=" nav navbar-nav">
-                        <li><a href="index.html #abajo1">¿Qué me Ofrece?</a></li>
-                        <li><a href=" index.html #abajo2">¿Cómo funciona?</a></li>
-                        <li><a href=" index.html #abajo3">¿Por qué usarlo?</a></li>
-                        <li><a href="contact.html">Contáctanos</a></li>
-                    </ul>
-                </div>
-            </nav>  
+        <div class="container">
+            <div class="row">
+				<div class="col-md-3 col-sm-12 col-xs-6">
+				    <img src="image/user-r.png" class="logo img-responsive" alt="">
+				</div>
+				<div class="col-md-9 col-sm-12 col-xs-6">
+				    <div class="text-right visible-xs">
+				        <button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+				    </div>
+
+                    <nav class="hidden-xs">
+                        <ul class="desktop-menu list-inline text-right">
+                            <li><a href="#abajo1">¿Qué me ofrece?</a></li>
+                            <li><a href="#abajo2">¿Cómo funciona?</a></li>
+                            <li><a href="#abajo3">¿Por qué usarlo?</a></li>
+                            <li><a href="contact.html">Contactanos</a></li>
+                        </ul>
+                    </nav>
+				</div>
             </div>
-        </div>    
-    </header>
-<!------FORMULARIO-------------------------------------------->
+        <!---------------------------------------------MENU---------------------------------------------------->
+				<nav class="visible-xs">
+					<div id="main-navigation" class="collapse">
+						<ul  class="mobile-menu text-right">
+							<li><a href="#abajo1">¿Qué me ofrece?</a></li>
+							<li><a href="#abajo2">¿Cómo funciona?</a></li>
+							<li><a href="#abajo3">¿Por qué usarlo?</a></li>
+							<li><a href="contact.html">Contactanos</a></li>
+						</ul>
+					</div>
+				</nav>
+        </div>
+</header>
+<!------FORMULARIO------------------------------------------->
 <section class="contact">
-    <div class="formulario">
-        <h3>Formulario User Testing 360</h3>
+    <div class="formulario container">
+        <h4 class="text-center">Formulario User Testing 360</h4>
             <form class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputNombre3" class="col-sm-3 control-label">Nombre *</label>
-                    <div class="col-sm-7">
+                    <label for="inputNombre3" class="col-sm-4 control-label">Nombre *</label>
+                    <div class="col-sm-8">
                       <input type="name" class="form-control" id="inputEmail3">
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-3 control-label">Email *</label>
-                    <div class="col-sm-7">
+                    <label for="inputPassword3" class="col-sm-4 control-label">Email *</label>
+                    <div class="col-sm-8">
                       <input type="email" class="form-control" id="inputPassword3">
                     </div>
                 </div>
                   
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-3 control-label">Dejame tu URL *</label>
-                    <div class="col-sm-7">
-                    <textarea type="URL" class="form-control" id="inputPassword3" rows="4"></textarea>
+                    <label for="inputPassword3" class="col-sm-4 control-label">Dejame tu URL *</label>
+                    <div class="col-sm-8">
+                    <textarea type="URL" class="form-control" id="inputPassword3" rows="3"></textarea>
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <div class="col-sm-7 col-sm-offset-3">
+                    <div class="col-sm-7 col-sm-offset-4">
                     <button type="submit" class="btn btn-default">Enviar Email</button>
-                    </div>
-                    <div class="col-sm-5 col-sm-offset-4">
-                      <input type="email" class="form-control input-email" id="inputPassword3">
                     </div>
                 </div>
         </form>
             
         <div class="row text">
-            <div class="col-sm-6">
-                <p>Powered by <a href="#">Equipo Laboratoria</a></p>
-            </div>
-            <div class="col-sm-6">
-                <p class="text-right"><a href="#">Report abuse</a></p>
+            <div class="col-sm-10 col-offset-md-2">
+               <ul class="list-unstyled list-inline">
+                   <li>Powered by <a href="#">Equipo Laboratoria</a></li>
+                   <li class="pull-right"><a href="#">Report abuse</a></li>
+                   
+                </ul>
             </div>
         </div>
-</div>
+    </div>
 </section>
-<!------FORMULARIO-------------------------------------------->
+<!------FORMULARIO---------------------------------------------->
 <footer class="foot2">
    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                   <div class="datos">
-                       <p>Escríbenos a:</p> 
-                       <p><a href="">experienciadeusuario.lab@gmail.com</a></p>
+                <div class="datos">
+                    <p>Escríbenos a:</p> 
+                    <p><a href="">experienciadeusuario.lab@gmail.com</a></p>
                     <p>Telef: 989637925</p>
-                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="social">
@@ -113,6 +120,7 @@
             </div>
         </div> 
     </div> 
-</footer>  
+</footer> 
+<!----------------------END FOOTER--------------->
     </body>
 </html>
